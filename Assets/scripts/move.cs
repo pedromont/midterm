@@ -31,5 +31,10 @@ public class move : MonoBehaviour {
 		//if I want tank controls use below and liberate public float turnSpeed = 90f above
 		//rbody.AddRelativeForce (0f, 0f, y * speed * Time.deltaTime);
 		//transform.Rotate ( 0f, x * turnSpeed * Time.deltaTime, 0f );
+
+		//point system from class:
+		//if (Input.GetKeyDown (KeyCode.Space)) {
+		//	gamelogic.instance.currentScore+=1;
+		//}
 	}
 }
