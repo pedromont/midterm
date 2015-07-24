@@ -23,13 +23,13 @@ public class mouselook : MonoBehaviour {
 
 		//CLAMPED Y LOOK
 		//1) Modify pitch
-		rotationY -= mouseY;
+		//rotationY -= mouseY;
 
 		//2) correct pitch / clamp it
-		rotationY = Mathf.Clamp (rotationY, -60, +60);
+		//rotationY = Mathf.Clamp (rotationY, -60, +60);
 
 		//3) apply pitch to the camera
-		myCamera.transform.localEulerAngles = new Vector3 (rotationY, 0f, 0f);
+		//myCamera.transform.localEulerAngles = new Vector3 (rotationY, 0f, 0f);
 
 	
 	

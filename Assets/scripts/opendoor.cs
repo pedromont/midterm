@@ -15,7 +15,6 @@ public class opendoor : MonoBehaviour {
 		{
 			transform.position=new Vector3(-3.77f,2.77f,12.7f);
 			//Debug.Log ("It works");
-			//transform.TransformPoint
 
 			//move transform of the gate.transform.position by x,y,z
 			//ctrigger.door false
