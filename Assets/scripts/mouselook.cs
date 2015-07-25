@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class mouselook : MonoBehaviour {
-	public Camera myCamera;
-	float rotationY; // will store our current pitch
+	//public Camera myCamera;
+	//float rotationY; // will store our current pitch
 
 	// Use this for initialization
 	void Start () {
@@ -13,7 +13,7 @@ public class mouselook : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		float mouseX = Input.GetAxis ("Mouse X");
-		float mouseY = Input.GetAxis ("Mouse Y");
+		//float mouseY = Input.GetAxis ("Mouse Y");
 
 		transform.Rotate (0f, mouseX, 0f); //horizontal rotation YAW
 		//myCamera.transform.Rotate (-mouseY, 0f, 0f); //vertical rotation PITCH
