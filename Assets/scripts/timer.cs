@@ -6,7 +6,7 @@ public class timer : MonoBehaviour {
 
 	public bool inwincube;
 	public Text myTextObject; // assign in inspector
-	float timeElapsed = 10f;
+	float timeElapsed = 240f;
 
 	void Start(){
 		inwincube = false;
