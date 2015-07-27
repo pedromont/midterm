@@ -50,6 +50,8 @@
      <Compile Include="Assets\scripts\mouselook.cs" />
      <Compile Include="Assets\scripts\move.cs" />
      <Compile Include="Assets\scripts\opendoor.cs" />
+     <Compile Include="Assets\scripts\timer.cs" />
+     <Compile Include="Assets\scripts\wingame.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
