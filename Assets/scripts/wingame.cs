@@ -6,6 +6,7 @@ public class wingame : MonoBehaviour {
 	//public bool win;
 	public ParticleSystem fireParticles2; // assign in Inspector
 
+
 	void Start(){
 	//	win = false;
 	}
@@ -14,7 +15,7 @@ public class wingame : MonoBehaviour {
 		// to delete the whole thing, you must delete the gameobject
 		//Destroy ( activator.gameObject );
 
-		inwincube = true;
+		//inwincube = true;
 		fireParticles2.Play (); // and now the fire will begin
 
 	}
